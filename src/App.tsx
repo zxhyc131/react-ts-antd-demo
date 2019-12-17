@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Button } from "antd";
+import Demo from './Demo/index';
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -10,7 +10,9 @@ const App: React.FC = () => {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <div><Button type="primary">Button</Button></div>
+        <div>
+          <Demo></Demo>
+        </div>
       </header>
     </div>
   );
